@@ -9,3 +9,13 @@ a:hover {
 a:hover {
   color: #125699;
 }
+
+.indent {
+  flex: 0.01;
+}
+
+.spacer {
+  flex: 1;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
