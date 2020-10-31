@@ -33,3 +33,7 @@ then install tools by running
 
 ## Installing Flex-Layout
 Run `npm install @angular/flex-layout @angular/cdk --save`
+
+## Fixing 404 routing problem
+add useHash property in your RouterModule
+`imports: [RouterModule.forRoot(routes, {useHash: true})],`
