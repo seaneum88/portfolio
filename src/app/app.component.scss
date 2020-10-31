@@ -49,12 +49,15 @@
     flex-direction: row;
   }
 
+  .side-content {
+    margin-top: 24px;
+  }
+
   .side-button {
     width: 100px;
     height: 40px;
     background-color: #aed6ff;
     margin-bottom: 20px;
-    border: none;
     border-radius: 5px;
   }
 
@@ -63,18 +66,13 @@
     width: auto;
   }
 
-  svg.material-icons:not(:last-child) {
-    margin-right: 8px;
-  }
-
-  svg#clouds {
+  .footer {
     position: fixed;
-    bottom: -160px;
-    left: -230px;
-    z-index: -10;
-    width: 1920px;
+    bottom: 10px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
   }
-
 
   /* Responsive Styles */
   @media screen and (max-width: 767px) {

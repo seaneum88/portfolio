@@ -1,1 +1,190 @@
-<p>about works!</p>
+<div class="body-margin" fxLayout="row" fxLayoutAlign="center start">
+  <div fxlayout="column" fxlayoutalign="start start">
+    <div class="header">Shawn Eum</div>
+    <h2>Skills</h2>
+    <div fxlayout="row" fxlayoutalign="center start" fxLayoutGap="26px">
+      <div fxlayout="column" fxlayoutalign="start start">
+        <div class="bar-background">
+          <div class="bar-filled" fxFlex="70">
+            <div class="bar-header">CSS</div>
+          </div>
+          <div
+            class="bar-percentage"
+            fxlayout="row"
+            fxlayoutalign="center center"
+          >
+            70%
+          </div>
+        </div>
+        <div class="bar-background">
+          <div class="bar-filled" fxFlex="80">
+            <div class="bar-header">HTML</div>
+          </div>
+          <div
+            class="bar-percentage"
+            fxlayout="row"
+            fxlayoutalign="center center"
+          >
+            80%
+          </div>
+        </div>
+        <div class="bar-background">
+          <div class="bar-filled" fxFlex="80">
+            <div class="bar-header">JavaScript</div>
+          </div>
+          <div
+            class="bar-percentage"
+            fxlayout="row"
+            fxlayoutalign="center center"
+          >
+            80%
+          </div>
+        </div>
+        <div class="bar-background">
+          <div class="bar-filled" fxFlex="90">
+            <div class="bar-header">TypeScript</div>
+          </div>
+          <div
+            class="bar-percentage"
+            fxlayout="row"
+            fxlayoutalign="center center"
+          >
+            90%
+          </div>
+        </div>
+        <div class="bar-background">
+          <div class="bar-filled" fxFlex="80">
+            <div class="bar-header">Java</div>
+          </div>
+          <div
+            class="bar-percentage"
+            fxlayout="row"
+            fxlayoutalign="center center"
+          >
+            80%
+          </div>
+        </div>
+        <div class="bar-background">
+          <div class="bar-filled" fxFlex="60">
+            <div class="bar-header">MySQL</div>
+          </div>
+          <div
+            class="bar-percentage"
+            fxlayout="row"
+            fxlayoutalign="center center"
+          >
+            60%
+          </div>
+        </div>
+        <div class="bar-background">
+          <div class="bar-filled" fxFlex="65">
+            <div class="bar-header">Python</div>
+          </div>
+          <div
+            class="bar-percentage"
+            fxlayout="row"
+            fxlayoutalign="center center"
+          >
+            65%
+          </div>
+        </div>
+      </div>
+      <div fxFlex>
+        <img class="picture" src="../../assets/Shawn icon picture.jpg" />
+      </div>
+    </div>
+    <div fxlayout="column" fxlayoutalign="start start">
+      <p>I'm currently available as full-stack developer.</p>
+      <p>
+        I am very trainable and I am eagle to learn more about programming. For
+        being better programmer, I have made an effort constantly studying and
+        trying to make better/efficient code.
+      </p>
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <div fxlayout="column" fxlayoutalign="start start">
+      <div class="header">Feature works</div>
+      <div fxLayout="row" fxLayoutAlign="start stretch" fxLayoutGap="28px">
+        <mat-card fxFlex="25">
+          <mat-card-header>
+            <mat-card-title class="button-cursor" (click)="openWorks('hf3')"
+              >Heart Failure 3 - iClnic</mat-card-title
+            >
+            <mat-card-subtitle
+              >Company Project (Angular/Java)</mat-card-subtitle
+            >
+          </mat-card-header>
+          <img
+            class="button-cursor"
+            mat-card-image
+            src="../../assets/iclinic HF3.png"
+            (click)="openWorks('hf3')"
+          />
+          <mat-card-content>
+            <p>
+              Heart Failure 3 is Electronic Medical Record system specifically
+              for patient who has heart related diseases.
+            </p>
+          </mat-card-content>
+        </mat-card>
+        <mat-card fxFlex="25">
+          <mat-card-header>
+            <mat-card-title class="button-cursor" (click)="openWorks('md3')"
+              >MD3 - iClinic</mat-card-title
+            >
+            <mat-card-subtitle
+              >Company Project (Angular/Java)</mat-card-subtitle
+            >
+          </mat-card-header>
+          <img
+            class="button-cursor"
+            mat-card-image
+            src="../../assets/iclinic md3.PNG"
+            (click)="openWorks('md3')"
+          />
+          <mat-card-content>
+            <p>MD3 is Electronic Medical Record system.</p>
+          </mat-card-content>
+        </mat-card>
+        <mat-card fxFlex="25">
+          <mat-card-header>
+            <mat-card-title
+              class="button-cursor"
+              (click)="openWorks('splitting')"
+              >Splitting Game</mat-card-title
+            >
+            <mat-card-subtitle>Personal Project (Python)</mat-card-subtitle>
+          </mat-card-header>
+          <img
+            class="button-cursor"
+            mat-card-image
+            src="../../assets/Splitting Game.png"
+            (click)="openWorks('splitting')"
+          />
+          <mat-card-content>
+            <p>Pop all balls in order to win the game.</p>
+          </mat-card-content>
+        </mat-card>
+        <mat-card fxFlex="25">
+          <mat-card-header>
+            <mat-card-title class="button-cursor" (click)="openWorks('dodging')"
+              >Dodging Falling Unicorn</mat-card-title
+            >
+            <mat-card-subtitle>Personal Project (Python)</mat-card-subtitle>
+          </mat-card-header>
+          <img
+            class="button-cursor"
+            mat-card-image
+            src="../../assets/FallingUnicorn.png"
+            (click)="openWorks('dodging')"
+          />
+          <mat-card-content>
+            <p>Dodge all unicorn until time's up</p>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>

@@ -10,13 +10,27 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatDividerModule } from '@angular/material/divider';
+import { MatDialogModule } from '@angular/material/dialog';
+import { HF3Component } from './dialogs/hf3/hf3.component';
+import { MD3Component } from './dialogs/md3/md3.component';
+import { SplittingGameComponent } from './dialogs/splitting-game/splitting-game.component';
+import { DodgingFallingThingComponent } from './dialogs/dodging-falling-thing/dodging-falling-thing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    HF3Component,
+    MD3Component,
+    SplittingGameComponent,
+    DodgingFallingThingComponent
   ],
   imports: [
     BrowserModule,
@@ -26,6 +40,12 @@ import { ContactComponent } from './contact/contact.component';
     StoreModule.forRoot(reducers, {
       metaReducers
     }),
+    MatButtonModule,
+    MatIconModule,
+    MatCardModule,
+    MatTooltipModule,
+    MatDividerModule,
+    MatDialogModule,
     BrowserAnimationsModule
   ],
   providers: [],

@@ -1,0 +1,43 @@
+.body-margin {
+    margin: 24px;
+}
+
+.header {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 16px 16px 16px 0px;
+  }
+
+.bar-background {
+    width: 500px;
+    height: 35px;
+    position: relative;
+    background-color: #eee;
+    margin-bottom: 20px;
+}
+
+.bar-header {
+    color: #fff;
+    height: 100%;
+    width: 100px;
+    margin: 6px 0px 0px 6px;
+}
+
+.bar-filled {
+    background-color: #4285f4;
+    height: 100%;
+}
+
+.bar-percentage {
+    top: 6px;
+    left: 460px;
+    position: absolute;
+}
+
+.picture {
+    float: right;
+}
+
+.button-cursor {
+    cursor: pointer;
+}
