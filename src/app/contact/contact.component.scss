@@ -1,5 +1,5 @@
 .contact-container {
-    margin: 24px;
+    margin: 24px 24px 60px 24px;
   }
 
 .header {
@@ -14,4 +14,23 @@
 
 .icons {
   height: 160px
+}
+
+.comment-margin {
+  margin-bottom: 48px;
+}
+
+.comment-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.comment-title-margin {
+  margin-bottom: 10px;
+}
+
+.comment-content {
+  margin-left: 6px;
+  font-size: 16px;
+  max-width: 653px;
 }

@@ -17,5 +17,31 @@
         <img class="icons" src="../../assets/file icon.png" />
       </button>
     </div>
+
+    <mat-divider></mat-divider>
+
+    <div class="header" fxLayout="row" fxLayoutAlign="center center">
+      Your comments are appreciated 
+    </div>
+    <div>
+      <div *ngFor="let list of lists; let i = index">
+        <div class="comment-title-margin" fxLayout="row" fxLayoutAlign="start center">
+          <div class="comment-title">
+            Title : 
+          </div>
+          <div class="comment-content">
+            {{ list.title }}
+          </div>
+        </div>
+        <div class="comment-margin" fxLayout="row" fxLayoutAlign="start center">
+          <div class="comment-title">
+            Note : 
+          </div>
+          <div class="comment-content">
+            {{ list.content }}
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

@@ -16,10 +16,14 @@ import { MatCardModule } from '@angular/material/card';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
 import { HF3Component } from './dialogs/hf3/hf3.component';
 import { MD3Component } from './dialogs/md3/md3.component';
 import { SplittingGameComponent } from './dialogs/splitting-game/splitting-game.component';
 import { DodgingFallingThingComponent } from './dialogs/dodging-falling-thing/dodging-falling-thing.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -36,6 +40,7 @@ import { DodgingFallingThingComponent } from './dialogs/dodging-falling-thing/do
     BrowserModule,
     FlexLayoutModule,
     AppRoutingModule,
+    HttpClientModule,
     StoreModule.forRoot({}, {}),
     StoreModule.forRoot(reducers, {
       metaReducers
@@ -46,6 +51,10 @@ import { DodgingFallingThingComponent } from './dialogs/dodging-falling-thing/do
     MatTooltipModule,
     MatDividerModule,
     MatDialogModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule
   ],
   providers: [],
